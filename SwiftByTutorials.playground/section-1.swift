@@ -28,10 +28,10 @@ import Foundation; var greetng = "hello world".capitalizedString; println(greetn
 var radius = 4 // Int
 let pi = 3.14159 // Double
 
-let million = 1_000_000
+let million = 1_000_000 // underscore to delimit thousands
 
 //var area = radius * radius * pi // error, must be explicit for numeric conversions (safety feature)
-var area = Double(radius) * Double(radius) * pi // convert Int to Double
+var area = Double(radius) * Double(radius) * pi // convert Int to Double (each var must be of the same type)
 
 //var overflow = Int.max + 1 // bounds error (safety feature)
 
@@ -92,18 +92,19 @@ for i in "Swift" {
 
 // note: types that implements Sequence protocol (like Range and String) are enumerable!
 
+
 // WHILE LOOPS
 let greeting3 = "Swift by Tutorial Rocks!"
 
 var i = 0
 while i < 5 {
-    println("\(i) - \(greeting)")
+    println("\(i) - \(greeting3)")
     i++
 }
 
 var j = 0
 do {
-    println("\(j) - \(greeting)")
+    println("\(j) - \(greeting3)")
     j++
 } while j < 5
 
@@ -140,7 +141,7 @@ switch direction {
         println("Going Down!")
     case "up":
         println("Going Up!")
-    case "left", "right": // match multiple values
+    case "left", "right": // match from multiple values
         println("Going Sonewhere!")
     default:
         println("Going Nowhere")
