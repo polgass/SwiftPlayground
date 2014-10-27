@@ -27,7 +27,9 @@ class ViewController: UIViewController {
   
     @IBOutlet var mapView : MKMapView!
     
-    var treasures: [Treasure] = []
+    private var treasures: [Treasure] = []
+    private var foundLocations: [GeoLocation] = []
+    private var polyline: MKPolyline!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +45,11 @@ class ViewController: UIViewController {
             HQTreasure(company: "Google", latitude: 37.422, longitude: -122.084),
         ]
         
+        // assign self as MKMapView delegate
         self.mapView.delegate = self
         self.mapView.addAnnotations(self.treasures)
         
+        // change map's view to where the annotations are
         // 1. This algorithm works by using the reduce function of an array. To reduce an array means to run a function over the array that combines each element into a single, final return value. At each step, the next element from the array is passed along with the current value for the reduce. The return value from the function then becomes the current value for the next reduce. Of course, you need to seed the reduce with an initial value. In this case, your seed is MKMapRectNull.
         let rectToDisplay = self.treasures.reduce(MKMapRectNull) {
             (mapRect: MKMapRect, treasure: Treasure) -> MKMapRect in
@@ -54,8 +58,29 @@ class ViewController: UIViewController {
             // 3. You then return a rectangle made up of the union of the current overall rectangle and the single treasure rectangle.
             return MKMapRectUnion(mapRect, treasurePointRect)
         }
+        
         // 4. When the reduce finishes, the map rectangle will be the union of all the map rectangles enclosing each and every treasure point. In other words, it will be a rectangle just large enough to enclose every treasure!
         self.mapView.setVisibleMapRect(rectToDisplay, edgePadding: UIEdgeInsetsMake(74, 10, 10, 10), animated: false)
+    }
+    
+    private func markTreasureAsFound(treasure: Treasure) {
+        // 1
+        if let index = find(self.foundLocations, treasure.location) {
+            // 2
+            let alert = UIAlertController(title: "Oops!", message: "You've already found this treasure (at step \(index + 1))! Try again!",  preferredStyle: .Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+        } else { // 3
+            self.foundLocations.append(treasure.location)
+            // 4
+            if self.polyline != nil {
+                self.mapView.removeOverlay(self.polyline)
+            }
+            // 5
+            var coordinates = self.foundLocations.map { $0.coordinate }
+            self.polyline = MKPolyline(coordinates: &coordinates, count: coordinates.count)
+            self.mapView.addOverlay(self.polyline)
+        }
     }
 }
 
@@ -67,6 +92,8 @@ extension ViewController: MKMapViewDelegate {
             var view = mapView.dequeueReusableAnnotationViewWithIdentifier("pin") as MKPinAnnotationView!
             if view == nil {
                 // 3. If no view could be dequeued, then create a new one and set it up as appropriate.
+                // maybe use 'treasure' constant instead of 'annotation'?, i.e:
+                // view = MKPinAnnotationView(annotation: treasure, reuseIdentifier: "pin")
                 view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pin")
                 view.canShowCallout = true
                 view.animatesDrop = false
@@ -74,6 +101,8 @@ extension ViewController: MKMapViewDelegate {
                 view.rightCalloutAccessoryView = UIButton.buttonWithType(.DetailDisclosure) as UIView
             } else {
                 // 4. If a view was dequeued, then change its annotation.
+                // maybe use 'treasure' constant instead of 'annotation'?, i.e:
+                // view.annotation = treasure
                 view.annotation = annotation
             }
             // 5. Finally, return the annotation view.
@@ -87,28 +116,35 @@ extension ViewController: MKMapViewDelegate {
         if let treasure = view.annotation as? Treasure {
             if let alertable = treasure as? Alertable {
                 let alert = alertable.alert()
-                alert.addAction(UIAlertAction(
-                    title: "OK",
-                    style: UIAlertActionStyle.Default,
-                    handler: nil))
-                alert.addAction(UIAlertAction(
-                    title: "Find Nearest",
-                    style: UIAlertActionStyle.Default) {
-                        action in
-                        // 1
-                        var sortedTreasures = self.treasures
-                        sortedTreasures.sort {
-                            // 2
-                            let distanceA = treasure.location.distanceBetween($0.location)
-                            let distanceB = treasure.location.distanceBetween($1.location)
-                            return distanceA < distanceB
-                        }
-                        // 3
-                        mapView.deselectAnnotation(treasure, animated: true)
-                        mapView.selectAnnotation(sortedTreasures[1], animated: true) })
-                
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                alert.addAction(UIAlertAction(title: "Found", style: UIAlertActionStyle.Default) { action in
+                    self.markTreasureAsFound(treasure)
+                })
+                alert.addAction(UIAlertAction(title: "Find Nearest", style: UIAlertActionStyle.Default) { action in
+                    // 1. You’re going to sort the list of treasures, so you create a local variable to hold a copy of the original array. The sort method takes a single parameter — a closure that takes two objects—and returns a Boolean indicating whether object one is ordered before object two.
+                    var sortedTreasures = self.treasures
+                    sortedTreasures.sort {
+                        // 2. Next, you calculate the distance between the current treasure and each of the treasures you’re sorting. Notice the use of $0 and $1. This is shorthand syntax for the first and second parameters passed into a closure. There will be more on this in the chapter on closures!
+                        // You check the first distance against the second distance and return true if it’s smaller. In this way, you sort the array of treasures in order of shortest to longest distance from the current treasure.
+                        let distanceA = treasure.location.distanceBetween($0.location)
+                        let distanceB = treasure.location.distanceBetween($1.location)
+                        return distanceA < distanceB
+                    }
+                    // 3. Finally, you deselect the current treasure and select the new treasure. If you’re wondering why the code selects the second element in the sorted array, it’s because the first element will always be the current treasure itself!
+                    mapView.deselectAnnotation(treasure, animated: true)
+                    mapView.selectAnnotation(sortedTreasures[1], animated: true)
+                })
                 self.presentViewController(alert, animated: true, completion: nil)
             }
         }
+    }
+    
+    func mapView(mapView: MKMapView!, rendererForOverlay overlay: MKOverlay!) -> MKOverlayRenderer! {
+        if let polylineOverlay = overlay as? MKPolyline {
+            let renderer = MKPolylineRenderer(polyline: polylineOverlay)
+            renderer.strokeColor = UIColor.blueColor()
+            return renderer
+        }
+        return nil
     }
 }

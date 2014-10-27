@@ -9,7 +9,7 @@
 import Foundation
 import MapKit
 
-// to declare a protocol:
+// new way to declare a protocol:
 @objc protocol Alertable {
     func alert() -> UIAlertController
 }
@@ -32,7 +32,7 @@ class Treasure: NSObject {
     
     // CONVENIENCE INITIALIZERS
     convenience init(what: String, latitude: Double, longitude: Double) {
-        let location: GeoLocation = GeoLocation(latitude: latitude, longitude: longitude)
+        let location = GeoLocation(latitude: latitude, longitude: longitude)
         self.init(what: what, location: location)
     }
     
@@ -74,7 +74,7 @@ final class HistoryTreasure: Treasure {
 
 // 3. You then declare the FactTreasure class in much the same way. Each has its own relevant data and therefore its own designated initializer.
 // used to not have 'final' keyword
-class FactTreasure: Treasure {
+final class FactTreasure: Treasure {
     let fact: String
     
     init(what: String, fact: String, latitude: Double, longitude: Double) {
@@ -86,7 +86,7 @@ class FactTreasure: Treasure {
 
 // 4. You then declare the HQTreasure class in much the same way. Each has its own relevant data and therefore its own designated initializer.
 // used to not have 'final' keyword
-class HQTreasure: Treasure {
+final class HQTreasure: Treasure {
     let company: String
     
     init(company: String, latitude: Double, longitude: Double) {
@@ -113,21 +113,21 @@ extension HistoryTreasure: Alertable {
 
 extension FactTreasure: Alertable {
     func alert() -> UIAlertController {
-    let alert = UIAlertController(
-        title: "Fact",
-        message: "From \(self.what):\n\(self.fact)",
-        preferredStyle: UIAlertControllerStyle.Alert)
-    return alert
+        let alert = UIAlertController(
+            title: "Fact",
+            message: "From \(self.what):\n\(self.fact)",
+            preferredStyle: UIAlertControllerStyle.Alert)
+        return alert
     }
 }
 
 extension HQTreasure: Alertable {
     func alert() -> UIAlertController {
-    let alert = UIAlertController(
-        title: "Headquarters",
-        message: "The headquarters of \(self.company)",
-        preferredStyle: UIAlertControllerStyle.Alert)
-    return alert
+        let alert = UIAlertController(
+            title: "Headquarters",
+            message: "The headquarters of \(self.company)",
+            preferredStyle: UIAlertControllerStyle.Alert)
+        return alert
     }
 }
 
