@@ -1,11 +1,3 @@
-//
-//  OrderedDictionary.swift
-//  FlickrSearch
-//
-//  Created by Peter Paul Sevilla on 10/28/14.
-//  Copyright (c) 2014 Razeware. All rights reserved.
-//
-
 import Foundation
 
 struct OrderedDictionary<KeyType: Hashable, ValueType> {
@@ -106,27 +98,13 @@ struct OrderedDictionary<KeyType: Hashable, ValueType> {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var dict = OrderedDictionary<Int, String>()
+dict.insert("dog", forKey: 1, atIndex: 0)
+dict.insert("cat", forKey: 2, atIndex: 1)
+println(dict.array.description + " : " + dict.dictionary.description)
+var byIndex: (Int, String) = dict[0]
+println(byIndex)
+var byKey: String? = dict[2]
+println(byKey)
 
 
