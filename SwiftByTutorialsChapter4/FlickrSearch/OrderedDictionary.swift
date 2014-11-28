@@ -60,6 +60,7 @@ struct OrderedDictionary<KeyType: Hashable, ValueType> {
     return (key, value)
   }
   
+  // accessing via 'key' of the dictionary
   // 1
   subscript(key: KeyType) -> ValueType? {
     // 2(a)
@@ -80,6 +81,7 @@ struct OrderedDictionary<KeyType: Hashable, ValueType> {
     }
   }
   
+  // accessing via 'index' of the array
   subscript(index: Int) -> (KeyType, ValueType) {
     // 1
     get {
@@ -96,10 +98,13 @@ struct OrderedDictionary<KeyType: Hashable, ValueType> {
     }
     
     set {
+      // replace existing?
       precondition(index < self.array.count, "Index out-of-bounds")
+        
       let (key, value) = newValue
       let originalKey = self.array[index]
-      self.dictionary[originalKey] = nil
+        
+      self.dictionary[originalKey] = nil // delete old key-value pair?
       self.array[index] = key
       self.dictionary[key] = value
     }
