@@ -112,7 +112,7 @@ let japaneseMorning = "おはよう"
 
 let valentines:Character = "💝"
 let halloween:Character = "🎃"
-let holidays:String = valentines + halloween
+let holidays = String(valentines) + String(halloween)
 
 let π = 3.14
 let 犬 = "🐶"
@@ -454,7 +454,7 @@ if let max = maybeMax {
 
 // Constant, Variable, and Inout Parameters
 func addEnthusiasm(string: String) {
-//    string += "!" // eroor
+//    string += "!" // error
 }
 
 func addEnthusiasm2(var string: String) {
@@ -737,23 +737,23 @@ enum Rank: Int {
             case .King:
                 return "King"
             default:
-                return String(self.toRaw())
+                return String(self.rawValue)
         }
     }
 }
 
 let rank1 = Rank.Three
-rank1.toRaw()
+rank1.rawValue
 
-let orank2 = Rank.fromRaw(11)
+let orank2 = Rank(rawValue: 11)
 if let rank2 = orank2 {
     println(rank2.description())
 } else {
     println("No such value")
 }
 
-let orank3 = Rank.fromRaw(99)
-if let rank3 = orank2 {
+let orank3 = Rank(rawValue: 99)
+if let rank3 = orank3 {
     println(rank3.description())
 } else {
     println("No such value")
@@ -800,7 +800,7 @@ enum Rating: Int {
 }
 
 let myRating = Rating()
-myRating.toRaw()
+myRating.rawValue
 
 /**
 * (Enum) Challenge!
@@ -830,7 +830,7 @@ enum MicrosoftCEOs: Int {
 let currentCEO = MicrosoftCEOs()
 println(currentCEO.description())
 
-let oFirstCEO = MicrosoftCEOs.fromRaw(1)
+let oFirstCEO = MicrosoftCEOs(rawValue: 1)
 if let firstCEO = oFirstCEO {
     println(firstCEO.description())
 } else {
