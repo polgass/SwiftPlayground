@@ -171,7 +171,7 @@ let possibleNumber = "23"
 let convertedNumber = possibleNumber.toInt() // inferred as Int?
 
 var serverResponseCode: Int? = 404
-serverResponseCode = nil
+//serverResponseCode = nil
 
 var surveyAnswer: String?
 
@@ -207,6 +207,9 @@ if assumedString != nil {
 if let definiteString = assumedString {
   println(definiteString)
 }
+
+
+// Assertion
 
 let age = -3
 //assert(age >= 0, "A person's age cannot be less than zero") // stops code execution from this point on
