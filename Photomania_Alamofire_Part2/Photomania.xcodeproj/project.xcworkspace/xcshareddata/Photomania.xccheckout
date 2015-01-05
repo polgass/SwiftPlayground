@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A98348B8-C7F9-489C-A9B5-50341B7CC16E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Photomania</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</key>
+		<string>github.com:polgass/SwiftPlayground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Photomania_Alamofire_Part2/Photomania.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:polgass/SwiftPlayground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftPlayground</string>
+		</dict>
+	</array>
+</dict>
+</plist>
