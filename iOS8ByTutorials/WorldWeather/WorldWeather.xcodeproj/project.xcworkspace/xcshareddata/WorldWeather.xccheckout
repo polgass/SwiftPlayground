@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E0ABB9A0-9523-4B17-AEA9-C3C6725DF5B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WorldWeather</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</key>
+		<string>github.com:polgass/SwiftPlayground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS8ByTutorials/WorldWeather/WorldWeather.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:polgass/SwiftPlayground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7DA194D25D244922AFE67D9C0B3096ECC61F8AD6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftPlayground</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5DB29C1A5A5E4F0015532B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB29B1A5A5E4F0015532B /* AppDelegate.swift */; };
+		9C5DB29E1A5A5E4F0015532B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB29D1A5A5E4F0015532B /* ViewController.swift */; };
+		9C5DB2A11A5A5E4F0015532B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DB29F1A5A5E4F0015532B /* Main.storyboard */; };
+		9C5DB2A31A5A5E4F0015532B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DB2A21A5A5E4F0015532B /* Images.xcassets */; };
+		9C5DB2A61A5A5E4F0015532B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5DB2A41A5A5E4F0015532B /* LaunchScreen.xib */; };
+		9C5DB2B21A5A5E4F0015532B /* MadNibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB2B11A5A5E4F0015532B /* MadNibsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5DB2AC1A5A5E4F0015532B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5DB28E1A5A5E4F0015532B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5DB2951A5A5E4F0015532B;
+			remoteInfo = MadNibs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C5DB2961A5A5E4F0015532B /* MadNibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadNibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5DB29A1A5A5E4F0015532B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5DB29B1A5A5E4F0015532B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C5DB29D1A5A5E4F0015532B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C5DB2A01A5A5E4F0015532B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C5DB2A21A5A5E4F0015532B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C5DB2A51A5A5E4F0015532B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C5DB2AB1A5A5E4F0015532B /* MadNibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadNibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5DB2B01A5A5E4F0015532B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5DB2B11A5A5E4F0015532B /* MadNibsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadNibsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5DB2931A5A5E4F0015532B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5DB2A81A5A5E4F0015532B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5DB28D1A5A5E4F0015532B = {
+			isa = PBXGroup;
+			children = (
+				9C5DB2981A5A5E4F0015532B /* MadNibs */,
+				9C5DB2AE1A5A5E4F0015532B /* MadNibsTests */,
+				9C5DB2971A5A5E4F0015532B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5DB2971A5A5E4F0015532B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DB2961A5A5E4F0015532B /* MadNibs.app */,
+				9C5DB2AB1A5A5E4F0015532B /* MadNibsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5DB2981A5A5E4F0015532B /* MadNibs */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DB29B1A5A5E4F0015532B /* AppDelegate.swift */,
+				9C5DB29D1A5A5E4F0015532B /* ViewController.swift */,
+				9C5DB29F1A5A5E4F0015532B /* Main.storyboard */,
+				9C5DB2A21A5A5E4F0015532B /* Images.xcassets */,
+				9C5DB2A41A5A5E4F0015532B /* LaunchScreen.xib */,
+				9C5DB2991A5A5E4F0015532B /* Supporting Files */,
+			);
+			path = MadNibs;
+			sourceTree = "<group>";
+		};
+		9C5DB2991A5A5E4F0015532B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DB29A1A5A5E4F0015532B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C5DB2AE1A5A5E4F0015532B /* MadNibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DB2B11A5A5E4F0015532B /* MadNibsTests.swift */,
+				9C5DB2AF1A5A5E4F0015532B /* Supporting Files */,
+			);
+			path = MadNibsTests;
+			sourceTree = "<group>";
+		};
+		9C5DB2AF1A5A5E4F0015532B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DB2B01A5A5E4F0015532B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5DB2951A5A5E4F0015532B /* MadNibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5DB2B51A5A5E4F0015532B /* Build configuration list for PBXNativeTarget "MadNibs" */;
+			buildPhases = (
+				9C5DB2921A5A5E4F0015532B /* Sources */,
+				9C5DB2931A5A5E4F0015532B /* Frameworks */,
+				9C5DB2941A5A5E4F0015532B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadNibs;
+			productName = MadNibs;
+			productReference = 9C5DB2961A5A5E4F0015532B /* MadNibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5DB2AA1A5A5E4F0015532B /* MadNibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5DB2B81A5A5E4F0015532B /* Build configuration list for PBXNativeTarget "MadNibsTests" */;
+			buildPhases = (
+				9C5DB2A71A5A5E4F0015532B /* Sources */,
+				9C5DB2A81A5A5E4F0015532B /* Frameworks */,
+				9C5DB2A91A5A5E4F0015532B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5DB2AD1A5A5E4F0015532B /* PBXTargetDependency */,
+			);
+			name = MadNibsTests;
+			productName = MadNibsTests;
+			productReference = 9C5DB2AB1A5A5E4F0015532B /* MadNibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5DB28E1A5A5E4F0015532B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Onvolo;
+				TargetAttributes = {
+					9C5DB2951A5A5E4F0015532B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9C5DB2AA1A5A5E4F0015532B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9C5DB2951A5A5E4F0015532B;
+					};
+				};
+			};
+			buildConfigurationList = 9C5DB2911A5A5E4F0015532B /* Build configuration list for PBXProject "MadNibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C5DB28D1A5A5E4F0015532B;
+			productRefGroup = 9C5DB2971A5A5E4F0015532B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5DB2951A5A5E4F0015532B /* MadNibs */,
+				9C5DB2AA1A5A5E4F0015532B /* MadNibsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C5DB2941A5A5E4F0015532B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5DB2A11A5A5E4F0015532B /* Main.storyboard in Resources */,
+				9C5DB2A61A5A5E4F0015532B /* LaunchScreen.xib in Resources */,
+				9C5DB2A31A5A5E4F0015532B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5DB2A91A5A5E4F0015532B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5DB2921A5A5E4F0015532B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5DB29E1A5A5E4F0015532B /* ViewController.swift in Sources */,
+				9C5DB29C1A5A5E4F0015532B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5DB2A71A5A5E4F0015532B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5DB2B21A5A5E4F0015532B /* MadNibsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5DB2AD1A5A5E4F0015532B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5DB2951A5A5E4F0015532B /* MadNibs */;
+			targetProxy = 9C5DB2AC1A5A5E4F0015532B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C5DB29F1A5A5E4F0015532B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5DB2A01A5A5E4F0015532B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C5DB2A41A5A5E4F0015532B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5DB2A51A5A5E4F0015532B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C5DB2B31A5A5E4F0015532B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C5DB2B41A5A5E4F0015532B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C5DB2B61A5A5E4F0015532B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MadNibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C5DB2B71A5A5E4F0015532B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MadNibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C5DB2B91A5A5E4F0015532B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MadNibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadNibs.app/MadNibs";
+			};
+			name = Debug;
+		};
+		9C5DB2BA1A5A5E4F0015532B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MadNibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadNibs.app/MadNibs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5DB2911A5A5E4F0015532B /* Build configuration list for PBXProject "MadNibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5DB2B31A5A5E4F0015532B /* Debug */,
+				9C5DB2B41A5A5E4F0015532B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5DB2B51A5A5E4F0015532B /* Build configuration list for PBXNativeTarget "MadNibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5DB2B61A5A5E4F0015532B /* Debug */,
+				9C5DB2B71A5A5E4F0015532B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C5DB2B81A5A5E4F0015532B /* Build configuration list for PBXNativeTarget "MadNibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5DB2B91A5A5E4F0015532B /* Debug */,
+				9C5DB2BA1A5A5E4F0015532B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5DB28E1A5A5E4F0015532B /* Project object */;
+}
