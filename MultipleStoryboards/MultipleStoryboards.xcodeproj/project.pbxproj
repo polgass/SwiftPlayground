@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C9F10801A5CDD1700063727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9F107F1A5CDD1700063727 /* AppDelegate.swift */; };
+		9C9F10821A5CDD1700063727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9F10811A5CDD1700063727 /* ViewController.swift */; };
+		9C9F10851A5CDD1700063727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F10831A5CDD1700063727 /* Main.storyboard */; };
+		9C9F10871A5CDD1700063727 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F10861A5CDD1700063727 /* Images.xcassets */; };
+		9C9F108A1A5CDD1700063727 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F10881A5CDD1700063727 /* LaunchScreen.xib */; };
+		9C9F10961A5CDD1700063727 /* MultipleStoryboardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9F10951A5CDD1700063727 /* MultipleStoryboardsTests.swift */; };
+		9C9F10A11A5CE92700063727 /* FirstPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F10A01A5CE92700063727 /* FirstPageStoryboard.storyboard */; };
+		9C9F10A31A5CE93B00063727 /* SecondPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F10A21A5CE93B00063727 /* SecondPageStoryboard.storyboard */; };
+		9CC0C2A81A5D1E7500136D88 /* ThirdPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0C2A71A5D1E7500136D88 /* ThirdPageStoryboard.storyboard */; };
+		CE59D6224E63FC855FE9B524 /* libPods-MultipleStoryboards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D735A1735AFA399D0945812 /* libPods-MultipleStoryboards.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C9F10901A5CDD1700063727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9F10721A5CDD1700063727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9F10791A5CDD1700063727;
+			remoteInfo = MultipleStoryboards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5628FF16194144D59BD9F47B /* Pods-MultipleStoryboards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleStoryboards.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleStoryboards/Pods-MultipleStoryboards.release.xcconfig"; sourceTree = "<group>"; };
+		9C9F107A1A5CDD1700063727 /* MultipleStoryboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleStoryboards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9F107E1A5CDD1700063727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9F107F1A5CDD1700063727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C9F10811A5CDD1700063727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C9F10841A5CDD1700063727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C9F10861A5CDD1700063727 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C9F10891A5CDD1700063727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C9F108F1A5CDD1700063727 /* MultipleStoryboardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleStoryboardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9F10941A5CDD1700063727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9F10951A5CDD1700063727 /* MultipleStoryboardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleStoryboardsTests.swift; sourceTree = "<group>"; };
+		9C9F10A01A5CE92700063727 /* FirstPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstPageStoryboard.storyboard; sourceTree = "<group>"; };
+		9C9F10A21A5CE93B00063727 /* SecondPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondPageStoryboard.storyboard; sourceTree = "<group>"; };
+		9CC0C2A71A5D1E7500136D88 /* ThirdPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdPageStoryboard.storyboard; sourceTree = "<group>"; };
+		9D735A1735AFA399D0945812 /* libPods-MultipleStoryboards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleStoryboards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC29DE843641B16D7EA610F2 /* Pods-MultipleStoryboards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleStoryboards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleStoryboards/Pods-MultipleStoryboards.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9F10771A5CDD1700063727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE59D6224E63FC855FE9B524 /* libPods-MultipleStoryboards.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9F108C1A5CDD1700063727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D5955DC1E5BF33EBF4350EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D735A1735AFA399D0945812 /* libPods-MultipleStoryboards.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		544E29ECD00398FF32143657 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC29DE843641B16D7EA610F2 /* Pods-MultipleStoryboards.debug.xcconfig */,
+				5628FF16194144D59BD9F47B /* Pods-MultipleStoryboards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C9F10711A5CDD1700063727 = {
+			isa = PBXGroup;
+			children = (
+				9C9F107C1A5CDD1700063727 /* MultipleStoryboards */,
+				9C9F10921A5CDD1700063727 /* MultipleStoryboardsTests */,
+				9C9F107B1A5CDD1700063727 /* Products */,
+				544E29ECD00398FF32143657 /* Pods */,
+				1D5955DC1E5BF33EBF4350EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C9F107B1A5CDD1700063727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9F107A1A5CDD1700063727 /* MultipleStoryboards.app */,
+				9C9F108F1A5CDD1700063727 /* MultipleStoryboardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C9F107C1A5CDD1700063727 /* MultipleStoryboards */ = {
+			isa = PBXGroup;
+			children = (
+				9C9F107F1A5CDD1700063727 /* AppDelegate.swift */,
+				9C9F10811A5CDD1700063727 /* ViewController.swift */,
+				9C9F10831A5CDD1700063727 /* Main.storyboard */,
+				9C9F10A01A5CE92700063727 /* FirstPageStoryboard.storyboard */,
+				9C9F10A21A5CE93B00063727 /* SecondPageStoryboard.storyboard */,
+				9CC0C2A71A5D1E7500136D88 /* ThirdPageStoryboard.storyboard */,
+				9C9F10861A5CDD1700063727 /* Images.xcassets */,
+				9C9F10881A5CDD1700063727 /* LaunchScreen.xib */,
+				9C9F107D1A5CDD1700063727 /* Supporting Files */,
+			);
+			path = MultipleStoryboards;
+			sourceTree = "<group>";
+		};
+		9C9F107D1A5CDD1700063727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C9F107E1A5CDD1700063727 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C9F10921A5CDD1700063727 /* MultipleStoryboardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9F10951A5CDD1700063727 /* MultipleStoryboardsTests.swift */,
+				9C9F10931A5CDD1700063727 /* Supporting Files */,
+			);
+			path = MultipleStoryboardsTests;
+			sourceTree = "<group>";
+		};
+		9C9F10931A5CDD1700063727 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C9F10941A5CDD1700063727 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9F10791A5CDD1700063727 /* MultipleStoryboards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9F10991A5CDD1700063727 /* Build configuration list for PBXNativeTarget "MultipleStoryboards" */;
+			buildPhases = (
+				BC14AFC4F748C12DC4CEA374 /* Check Pods Manifest.lock */,
+				9C9F10761A5CDD1700063727 /* Sources */,
+				9C9F10771A5CDD1700063727 /* Frameworks */,
+				9C9F10781A5CDD1700063727 /* Resources */,
+				78F4DF6EC9678FF99B8764FE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleStoryboards;
+			productName = MultipleStoryboards;
+			productReference = 9C9F107A1A5CDD1700063727 /* MultipleStoryboards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C9F108E1A5CDD1700063727 /* MultipleStoryboardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9F109C1A5CDD1700063727 /* Build configuration list for PBXNativeTarget "MultipleStoryboardsTests" */;
+			buildPhases = (
+				9C9F108B1A5CDD1700063727 /* Sources */,
+				9C9F108C1A5CDD1700063727 /* Frameworks */,
+				9C9F108D1A5CDD1700063727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9F10911A5CDD1700063727 /* PBXTargetDependency */,
+			);
+			name = MultipleStoryboardsTests;
+			productName = MultipleStoryboardsTests;
+			productReference = 9C9F108F1A5CDD1700063727 /* MultipleStoryboardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C9F10721A5CDD1700063727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Onvolo;
+				TargetAttributes = {
+					9C9F10791A5CDD1700063727 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9C9F108E1A5CDD1700063727 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9C9F10791A5CDD1700063727;
+					};
+				};
+			};
+			buildConfigurationList = 9C9F10751A5CDD1700063727 /* Build configuration list for PBXProject "MultipleStoryboards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C9F10711A5CDD1700063727;
+			productRefGroup = 9C9F107B1A5CDD1700063727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9F10791A5CDD1700063727 /* MultipleStoryboards */,
+				9C9F108E1A5CDD1700063727 /* MultipleStoryboardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9F10781A5CDD1700063727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9F10A31A5CE93B00063727 /* SecondPageStoryboard.storyboard in Resources */,
+				9C9F10851A5CDD1700063727 /* Main.storyboard in Resources */,
+				9C9F108A1A5CDD1700063727 /* LaunchScreen.xib in Resources */,
+				9C9F10871A5CDD1700063727 /* Images.xcassets in Resources */,
+				9CC0C2A81A5D1E7500136D88 /* ThirdPageStoryboard.storyboard in Resources */,
+				9C9F10A11A5CE92700063727 /* FirstPageStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9F108D1A5CDD1700063727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78F4DF6EC9678FF99B8764FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleStoryboards/Pods-MultipleStoryboards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC14AFC4F748C12DC4CEA374 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9F10761A5CDD1700063727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9F10821A5CDD1700063727 /* ViewController.swift in Sources */,
+				9C9F10801A5CDD1700063727 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9F108B1A5CDD1700063727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9F10961A5CDD1700063727 /* MultipleStoryboardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C9F10911A5CDD1700063727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C9F10791A5CDD1700063727 /* MultipleStoryboards */;
+			targetProxy = 9C9F10901A5CDD1700063727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C9F10831A5CDD1700063727 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9F10841A5CDD1700063727 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C9F10881A5CDD1700063727 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9F10891A5CDD1700063727 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9F10971A5CDD1700063727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C9F10981A5CDD1700063727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C9F109A1A5CDD1700063727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC29DE843641B16D7EA610F2 /* Pods-MultipleStoryboards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleStoryboards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		9C9F109B1A5CDD1700063727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5628FF16194144D59BD9F47B /* Pods-MultipleStoryboards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleStoryboards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		9C9F109D1A5CDD1700063727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleStoryboardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleStoryboards.app/MultipleStoryboards";
+			};
+			name = Debug;
+		};
+		9C9F109E1A5CDD1700063727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleStoryboardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleStoryboards.app/MultipleStoryboards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9F10751A5CDD1700063727 /* Build configuration list for PBXProject "MultipleStoryboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9F10971A5CDD1700063727 /* Debug */,
+				9C9F10981A5CDD1700063727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9F10991A5CDD1700063727 /* Build configuration list for PBXNativeTarget "MultipleStoryboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9F109A1A5CDD1700063727 /* Debug */,
+				9C9F109B1A5CDD1700063727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9F109C1A5CDD1700063727 /* Build configuration list for PBXNativeTarget "MultipleStoryboardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9F109D1A5CDD1700063727 /* Debug */,
+				9C9F109E1A5CDD1700063727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C9F10721A5CDD1700063727 /* Project object */;
+}
