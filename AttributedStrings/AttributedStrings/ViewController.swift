@@ -35,9 +35,7 @@ class ViewController: UIViewController {
     myMutableString.addAttribute(NSStrokeWidthAttributeName, value: 2, range: NSRange(location: 0, length: 1))
     myMutableString.addAttribute(NSBackgroundColorAttributeName, value: UIColor.greenColor(), range: NSRange(location: 0, length: myString.length))
     myLabel.backgroundColor = UIColor.grayColor()
-    
-    //Apply to the label
-    myLabel.attributedText = myMutableString
+    myLabel.attributedText = myMutableString //Apply to the label
     
     // navbar color
     navigationController?.navigationBar.barTintColor = UIColor.blueColor()
