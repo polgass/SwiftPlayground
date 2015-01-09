@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Second Page View One View Controller-->
         <scene sceneID="Vcr-aX-Jhc">
             <objects>
-                <viewController id="MM6-sa-eWI" sceneMemberID="viewController">
+                <viewController id="MM6-sa-eWI" customClass="SecondPageViewOneViewController" customModule="MultipleStoryboards" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q0P-ky-CiX"/>
                         <viewControllerLayoutGuide type="bottom" id="eJh-na-GfE"/>

@@ -5,6 +5,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MultipleStoryboards' do
 pod 'RBStoryboardLink', '~> 0.1'
+pod 'ECSlidingViewController', '~> 2.0'
+pod 'SDWebImage', '~> 3.7'
 end
 
 target 'MultipleStoryboardsTests' do

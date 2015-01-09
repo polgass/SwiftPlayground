@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-MultipleStoryboards-ECSlidingViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MultipleStoryboards-RBStoryboardLink.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MultipleStoryboards-SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8AEA479EABA3E97ABFE23286</key>
+		<key>151FC3907D8589D0F721A0A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC2D410734E64C399D8AD87B</key>
+		<key>2BA9B4F33375991B90C3C141</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>56963C20281E84A8A89027C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0AE917CC1266FC0FAEE8B21</key>
 		<dict>
 			<key>primary</key>
 			<true/>

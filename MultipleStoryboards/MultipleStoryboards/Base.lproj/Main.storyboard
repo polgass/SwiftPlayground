@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aQX-o6-IY6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YXC-ml-7fE">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -48,10 +48,50 @@
             </objects>
             <point key="canvasLocation" x="1894" y="655"/>
         </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="hjC-jV-3Z3">
+            <objects>
+                <viewController storyboardIdentifier="SettingsVC" id="HhV-lB-lqk" customClass="SettingsViewController" customModule="MultipleStoryboards" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZcM-0o-t6R"/>
+                        <viewControllerLayoutGuide type="bottom" id="TqS-bm-wWi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vcy-8W-bhl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wG4-fU-7T5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-477" y="-397"/>
+        </scene>
+        <!--Sliding View Controller-->
+        <scene sceneID="2fx-Q0-O87">
+            <objects>
+                <viewController id="YXC-ml-7fE" customClass="ECSlidingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IIy-L1-7N5"/>
+                        <viewControllerLayoutGuide type="bottom" id="J99-dJ-mjX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cd6-LV-ELs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="topViewControllerStoryboardId" value="MainTabBar"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="underLeftViewControllerStoryboardId" value="SettingsVC"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="63y-Ub-1Qn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="-397"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XOu-ez-EkY">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="aQX-o6-IY6" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBar" automaticallyAdjustsScrollViewInsets="NO" id="aQX-o6-IY6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="LhF-t5-se5">

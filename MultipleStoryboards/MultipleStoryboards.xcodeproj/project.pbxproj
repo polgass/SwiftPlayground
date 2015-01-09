@@ -16,6 +16,13 @@
 		9C9F10A11A5CE92700063727 /* FirstPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F10A01A5CE92700063727 /* FirstPageStoryboard.storyboard */; };
 		9C9F10A31A5CE93B00063727 /* SecondPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F10A21A5CE93B00063727 /* SecondPageStoryboard.storyboard */; };
 		9CC0C2A81A5D1E7500136D88 /* ThirdPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0C2A71A5D1E7500136D88 /* ThirdPageStoryboard.storyboard */; };
+		9CC0C2AD1A5D35A300136D88 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C2AC1A5D35A300136D88 /* SettingsViewController.swift */; };
+		9CC0C2AF1A5D385000136D88 /* FirstPageViewOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C2AE1A5D385000136D88 /* FirstPageViewOneViewController.swift */; };
+		9CC0C2B11A5D467800136D88 /* SecondPageViewOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C2B01A5D467800136D88 /* SecondPageViewOneViewController.swift */; };
+		9CC0C2B61A5D4DFF00136D88 /* ThirdPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C2B51A5D4DFF00136D88 /* ThirdPageTableViewController.swift */; };
+		9CC0C2B81A5D520600136D88 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C2B71A5D520600136D88 /* UserTableViewCell.swift */; };
+		9CC0C2BA1A5D535300136D88 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C2B91A5D535300136D88 /* User.swift */; };
+		9CC0C2BC1A5D5B8400136D88 /* cartman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0C2BB1A5D5B8400136D88 /* cartman.jpeg */; };
 		CE59D6224E63FC855FE9B524 /* libPods-MultipleStoryboards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D735A1735AFA399D0945812 /* libPods-MultipleStoryboards.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +51,14 @@
 		9C9F10A01A5CE92700063727 /* FirstPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstPageStoryboard.storyboard; sourceTree = "<group>"; };
 		9C9F10A21A5CE93B00063727 /* SecondPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondPageStoryboard.storyboard; sourceTree = "<group>"; };
 		9CC0C2A71A5D1E7500136D88 /* ThirdPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdPageStoryboard.storyboard; sourceTree = "<group>"; };
+		9CC0C2AB1A5D340800136D88 /* MultipleStoryboards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleStoryboards-Bridging-Header.h"; sourceTree = "<group>"; };
+		9CC0C2AC1A5D35A300136D88 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9CC0C2AE1A5D385000136D88 /* FirstPageViewOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewOneViewController.swift; sourceTree = "<group>"; };
+		9CC0C2B01A5D467800136D88 /* SecondPageViewOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPageViewOneViewController.swift; sourceTree = "<group>"; };
+		9CC0C2B51A5D4DFF00136D88 /* ThirdPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdPageTableViewController.swift; sourceTree = "<group>"; };
+		9CC0C2B71A5D520600136D88 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		9CC0C2B91A5D535300136D88 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9CC0C2BB1A5D5B8400136D88 /* cartman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cartman.jpeg; sourceTree = "<group>"; };
 		9D735A1735AFA399D0945812 /* libPods-MultipleStoryboards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleStoryboards.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC29DE843641B16D7EA610F2 /* Pods-MultipleStoryboards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleStoryboards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleStoryboards/Pods-MultipleStoryboards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,8 +122,15 @@
 		9C9F107C1A5CDD1700063727 /* MultipleStoryboards */ = {
 			isa = PBXGroup;
 			children = (
+				9CC0C2BB1A5D5B8400136D88 /* cartman.jpeg */,
 				9C9F107F1A5CDD1700063727 /* AppDelegate.swift */,
 				9C9F10811A5CDD1700063727 /* ViewController.swift */,
+				9CC0C2AC1A5D35A300136D88 /* SettingsViewController.swift */,
+				9CC0C2AE1A5D385000136D88 /* FirstPageViewOneViewController.swift */,
+				9CC0C2B01A5D467800136D88 /* SecondPageViewOneViewController.swift */,
+				9CC0C2B51A5D4DFF00136D88 /* ThirdPageTableViewController.swift */,
+				9CC0C2B71A5D520600136D88 /* UserTableViewCell.swift */,
+				9CC0C2B91A5D535300136D88 /* User.swift */,
 				9C9F10831A5CDD1700063727 /* Main.storyboard */,
 				9C9F10A01A5CE92700063727 /* FirstPageStoryboard.storyboard */,
 				9C9F10A21A5CE93B00063727 /* SecondPageStoryboard.storyboard */,
@@ -124,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				9C9F107E1A5CDD1700063727 /* Info.plist */,
+				9CC0C2AB1A5D340800136D88 /* MultipleStoryboards-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +253,7 @@
 				9C9F10A31A5CE93B00063727 /* SecondPageStoryboard.storyboard in Resources */,
 				9C9F10851A5CDD1700063727 /* Main.storyboard in Resources */,
 				9C9F108A1A5CDD1700063727 /* LaunchScreen.xib in Resources */,
+				9CC0C2BC1A5D5B8400136D88 /* cartman.jpeg in Resources */,
 				9C9F10871A5CDD1700063727 /* Images.xcassets in Resources */,
 				9CC0C2A81A5D1E7500136D88 /* ThirdPageStoryboard.storyboard in Resources */,
 				9C9F10A11A5CE92700063727 /* FirstPageStoryboard.storyboard in Resources */,
@@ -283,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC0C2AF1A5D385000136D88 /* FirstPageViewOneViewController.swift in Sources */,
 				9C9F10821A5CDD1700063727 /* ViewController.swift in Sources */,
+				9CC0C2B81A5D520600136D88 /* UserTableViewCell.swift in Sources */,
+				9CC0C2B11A5D467800136D88 /* SecondPageViewOneViewController.swift in Sources */,
+				9CC0C2BA1A5D535300136D88 /* User.swift in Sources */,
 				9C9F10801A5CDD1700063727 /* AppDelegate.swift in Sources */,
+				9CC0C2B61A5D4DFF00136D88 /* ThirdPageTableViewController.swift in Sources */,
+				9CC0C2AD1A5D35A300136D88 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +441,7 @@
 				INFOPLIST_FILE = MultipleStoryboards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultipleStoryboards/MultipleStoryboards-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -423,7 +453,7 @@
 				INFOPLIST_FILE = MultipleStoryboards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultipleStoryboards/MultipleStoryboards-Bridging-Header.h";
 			};
 			name = Release;
 		};
