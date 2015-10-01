@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ProgressBarExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0CE-Op-hy9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vr6-Ya-4BJ">
+                                <rect key="frame" x="0.0" y="28.5" width="600" height="2.5"/>
+                                <color key="progressTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="trackTintColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vr6-Ya-4BJ" firstAttribute="trailing" secondItem="0CE-Op-hy9" secondAttribute="trailing" id="EYN-WN-Ve4"/>
+                            <constraint firstAttribute="trailing" secondItem="0CE-Op-hy9" secondAttribute="trailing" id="NFO-kk-3jV"/>
+                            <constraint firstItem="0CE-Op-hy9" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Uj8-Ub-zVF"/>
+                            <constraint firstItem="0CE-Op-hy9" firstAttribute="top" secondItem="Vr6-Ya-4BJ" secondAttribute="bottom" constant="-30" id="bTz-ex-nBN"/>
+                            <constraint firstItem="0CE-Op-hy9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ofv-fp-c0D"/>
+                            <constraint firstAttribute="bottom" secondItem="0CE-Op-hy9" secondAttribute="bottom" id="sJc-ec-fnq"/>
+                            <constraint firstItem="jyV-Pf-zRb" firstAttribute="top" secondItem="Vr6-Ya-4BJ" secondAttribute="bottom" constant="1" id="sdb-ui-t3b"/>
+                            <constraint firstItem="Vr6-Ya-4BJ" firstAttribute="leading" secondItem="0CE-Op-hy9" secondAttribute="leading" id="x0w-kb-gjW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="sdb-ui-t3b"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="0CE-Op-hy9" id="MdZ-nC-UMy"/>
+                        <outlet property="progressView" destination="Vr6-Ya-4BJ" id="UkW-8Q-xh5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

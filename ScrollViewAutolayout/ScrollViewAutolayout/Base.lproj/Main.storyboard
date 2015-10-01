@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ScrollViewAutolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LkZ-cy-l6N">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZKe-VL-37o" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="800" height="538"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bachalpseeflowers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xiq-8v-6eS" userLabel="Content View">
+                                                <rect key="frame" x="0.0" y="0.0" width="800" height="538"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="Xiq-8v-6eS" firstAttribute="leading" secondItem="ZKe-VL-37o" secondAttribute="leading" id="Ei0-IP-ira"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xiq-8v-6eS" secondAttribute="trailing" id="Zi0-vb-SEo"/>
+                                            <constraint firstAttribute="bottom" secondItem="Xiq-8v-6eS" secondAttribute="bottom" id="hw4-oN-ZsJ"/>
+                                            <constraint firstItem="Xiq-8v-6eS" firstAttribute="top" secondItem="ZKe-VL-37o" secondAttribute="top" id="jv5-YG-bcb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZKe-VL-37o" firstAttribute="leading" secondItem="LkZ-cy-l6N" secondAttribute="leading" id="2R5-DF-gvu"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZKe-VL-37o" secondAttribute="bottom" id="5Gx-LP-YLb"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZKe-VL-37o" secondAttribute="trailing" id="F56-hV-F80"/>
+                                    <constraint firstItem="ZKe-VL-37o" firstAttribute="top" secondItem="LkZ-cy-l6N" secondAttribute="top" id="MgK-aE-UD9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LkZ-cy-l6N" secondAttribute="trailing" id="7GV-nD-Zr7"/>
+                            <constraint firstItem="LkZ-cy-l6N" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="QGq-lq-elh"/>
+                            <constraint firstAttribute="bottom" secondItem="LkZ-cy-l6N" secondAttribute="bottom" id="WPk-RA-5Vl"/>
+                            <constraint firstItem="LkZ-cy-l6N" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="sPV-Hq-Ln9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bachalpseeflowers.jpg" width="800" height="538"/>
+    </resources>
+</document>
