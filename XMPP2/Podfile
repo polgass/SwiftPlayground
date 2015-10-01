@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target "XMPP2" do
+pod 'TTTAttributedLabel', '~> 1.13'
+end
+
+target "XMPP2Tests" do
+
+end
+

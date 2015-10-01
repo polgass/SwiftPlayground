@@ -1,0 +1,10 @@
+PODS:
+  - Localytics (3.0.0)
+
+DEPENDENCIES:
+  - Localytics (~> 3.0)
+
+SPEC CHECKSUMS:
+  Localytics: c42d816fd7bf4a770812a5af0d2e4a92bc6dcfdd
+
+COCOAPODS: 0.36.0.beta.1
