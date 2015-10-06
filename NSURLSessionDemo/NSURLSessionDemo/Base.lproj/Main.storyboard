@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NSURLSessionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QTp-Il-TEN">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oJZ-fh-ljE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="2"/>
+                                <animations/>
+                            </progressView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oJZ-fh-ljE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6c9-gE-9lk"/>
+                            <constraint firstItem="QTp-Il-TEN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="M4V-FV-UzC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QTp-Il-TEN" secondAttribute="bottom" id="Rwg-8R-hcn"/>
+                            <constraint firstAttribute="trailing" secondItem="QTp-Il-TEN" secondAttribute="trailing" id="V1K-3i-RzG"/>
+                            <constraint firstAttribute="trailing" secondItem="oJZ-fh-ljE" secondAttribute="trailing" id="dCk-03-cCm"/>
+                            <constraint firstItem="oJZ-fh-ljE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dGX-h5-ZVE"/>
+                            <constraint firstItem="QTp-Il-TEN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wp9-Vn-Ju0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="QTp-Il-TEN" id="3FG-OU-5ce"/>
+                        <outlet property="progressView" destination="oJZ-fh-ljE" id="Fqs-D4-uh0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="278"/>
+        </scene>
+    </scenes>
+</document>
