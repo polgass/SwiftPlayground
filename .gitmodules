@@ -1,0 +1,3 @@
+[submodule "IceCreamShop_Swift_2.0_Alamofire/Alamofire"]
+	path = IceCreamShop_Swift_2.0_Alamofire/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git

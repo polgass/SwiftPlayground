@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Photomania/PhotoBrowserCollectionViewController.swift"
+            timestampString = "477228223.044275"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "populatePhotos()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Photomania.PhotoBrowserCollectionViewController.(populatePhotos (Photomania.PhotoBrowserCollectionViewController) -&gt; () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Photomania"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulsevilla/Developer/SwiftPlayground/Alamofire_Photomania_Swift2_part1/Photomania/PhotoBrowserCollectionViewController.swift"
+                  timestampString = "476971572.4861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Photomania.PhotoBrowserCollectionViewController.(populatePhotos (Photomania.PhotoBrowserCollectionViewController) -&gt; () -&gt; ()).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "Photomania"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulsevilla/Developer/SwiftPlayground/Alamofire_Photomania_Swift2_part1/Photomania/PhotoBrowserCollectionViewController.swift"
+                  timestampString = "476971572.486308"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Photomania.PhotoBrowserCollectionViewController.(populatePhotos (Photomania.PhotoBrowserCollectionViewController) -&gt; () -&gt; ()).(closure #1).(closure #1).(closure #2)"
+                  moduleName = "Photomania"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulsevilla/Developer/SwiftPlayground/Alamofire_Photomania_Swift2_part1/Photomania/PhotoBrowserCollectionViewController.swift"
+                  timestampString = "476971572.486481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
