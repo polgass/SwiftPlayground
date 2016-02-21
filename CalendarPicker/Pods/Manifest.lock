@@ -1,0 +1,15 @@
+PODS:
+  - EPCalendarPicker (1.0.6)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - EPCalendarPicker
+  - SDWebImage (~> 3.7)
+
+SPEC CHECKSUMS:
+  EPCalendarPicker: 8f05f6d781c7b27c0a14a8d34a7be0e64d4baea5
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+COCOAPODS: 0.39.0

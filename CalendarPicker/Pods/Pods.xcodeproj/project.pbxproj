@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CD87A4506139F0458E7D9F3B2AC919 /* EPCalendarCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA3331299EF80930CC0E1EB9AC46B8 /* EPCalendarCell1.swift */; };
+		0A3FEF5EB807CE078AB6B0000F6A9201 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 307DD2B96E213EC12152DC47D6E2C0A0 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7ABC62B3982C1D6EB114B2FC502CC2 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E8ECCB06B0392ED490845B3C61FE24 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0B65591FD4EC9C080FBDC347EF476D49 /* EPCalendarHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881DD79EC3E88A020DCC7241615469C4 /* EPCalendarHeaderView.xib */; };
+		1CCC8052793A03ED012B0C3F1D6A8546 /* EPCalendarCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1B2F001A3F8B6DE3E8C76C2F3A337 /* EPCalendarCell1.xib */; };
+		28D37FA0039987BB3906B56EE26A86F4 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AD9C62369DBC2D93322ADC6BC70E8A /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E9CCFA0C071CB08C35958810E4AA94A /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 403200FFB034DF0F5FDE3E949441052B /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		486C627CFD70A24ABD6591AA944A6FC8 /* EPCalendarPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBB18BD22E6686F2616F14C140450E /* EPCalendarPicker-dummy.m */; };
+		4A94757563A0133D6FE73C0942E6391D /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 98355677C7B8795FA70825103DA0EDEC /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C0FD3F0960295AA8FB1F0E478F87952 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D4B089D002E1BD041B9F8E3589846 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		527673CAEAF2D98BCB810C70E3D0CB22 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8407A0F1C41140AC51B80C59CE1C0B /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5418D0CA81BB07B43F39B5052579194D /* Pods-CalendarPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C3FA23FAC8934B49F451039033F910 /* Pods-CalendarPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E20F41F9CCD3C0684E13990F1FB8C8D /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B31A1B43FF6D6D4864ECADE61B83B884 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E5876C4AB9AA8CC9F41D45547CE1564 /* EPCalendarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B427E409B16A64CBED243F3952C7C /* EPCalendarConstants.swift */; };
+		74F8D0F5FE5444B09C53313E7FA91A5D /* EPCalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BECCFB23CB5664394EAFE22F7CDB5 /* EPCalendarPicker.swift */; };
+		81F1D9E6A01F7889151AA18463FFA5E0 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C4D8EF75B8722876F0A98B246C37C70F /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F083E46E5912900BEC5CEDF82D0CB8 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AC4555BBB4248899EDF297D18F51D3 /* SDWebImage-dummy.m */; };
+		95B70A03598ED1C56A043B9A0B90C33F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEF1E512DA75C6D5E7372D3BA183B1 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		974D07AC03DCE337EAB010F765CFABA7 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 032645C765B3C527466218634FC1EBEE /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55D72DB9BE15CE1D36DC5138998C28A /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C383EB1E2D178903B18BC2A7D8E269C8 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C678F742A0807F28E959BD3F35E625 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5A76E389D1C25C27648A884F5515C7 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC28753696C491C9E37740120E5B65F5 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F45EAA640B476E18E79C38796EE064B4 /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6AA46A551B3997FFFE078075505D066 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B4CC6D646AC8F78D8448D2A28A2A12 /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BDE521933B317671B003EE364D8F16E7 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3704D05F566D30A8EBE3AA13D3CDCEE9 /* EPExtensions.swift */; };
+		BE0F3E8B9EF63A9E668F8D3AA83CDA24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A260CC6B2071AB656636AF5AC75440 /* Foundation.framework */; };
+		C32AEE97730BE168153EB1FA8C2B7447 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B9583961C1580A59E9413AD81F4438 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3E427958378E44B63DB4E73182D089E /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA12F48DE94A0112981A6B34169F57E /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C523FA7BC34889E4D8A0E28BC3F2D854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A260CC6B2071AB656636AF5AC75440 /* Foundation.framework */; };
+		C730DAD378A9ED85BDFAA7BFC7BEA089 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D3CA22175D3487E48AF3D732163426 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA6FCD13EB5B429020079F752C8227D4 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE26CDFB5D73BF0AF9482E5ACB8653DB /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D1C5905E317D3BB30B1F22D5D3FBEA54 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9474FC6DA1A39C90B3E1CA128FA28 /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D31E83DFCD8D5E28CEE3DC2068A2906A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A70E38F929A6142BB472CEE1546877 /* UIKit.framework */; };
+		D36CE56FDF410BFEC9C0EEB1F1D178DD /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0967EB1C79FED2970014C32DCD10E2 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D44F5BD1905D839E63ED1A876991E452 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D2698116A7594AD59CD6327BB38EE177 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB840C22DB39CBF68650B5576B1A0FB3 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = BA15D6A4992C115FA7D6F10F73B4DB79 /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E12ADF0E0EA5E3459C6275296037572D /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB30204D59662FD325BCFBF2406409 /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E92BFC4842D41FE57C69E02FEB5FA55C /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C3CE7AC054860272E5C89E5C354F81 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9C44BDBC87179BE50EE6ED9CF028AAC /* Pods-CalendarPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95088956DDA6F46CE49BAFA0861A52 /* Pods-CalendarPicker-dummy.m */; };
+		EC267F0D033BC68C6DC0391448ABB94E /* EPCalendarPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C73D56209FE5696C84F05A3E245A6209 /* EPCalendarPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDAFD05CE749353C0C0C85E33CBE515F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A260CC6B2071AB656636AF5AC75440 /* Foundation.framework */; };
+		F0604216D5A8100351C23D40B3523423 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C1C01B2C9E8B6F0F36DEFBE45D298B /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F2B833CA2C58782077AC3FC1ACCC5EE0 /* EPCalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3C87AB93CC5A5BC765314BF837BF1C /* EPCalendarHeaderView.swift */; };
+		F3868E45B9304E84A766AE848276CF2B /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 175C34193EA9292C0EEB406383647F20 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E56E1026DFCB644E2FE487E3E05843 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E78AFB27C0FBE31E2093F0CFC32A13 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB7F6B522EC6E94A35A31C28D8DE1F00 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED94123217EE144E3E0D5E526435F22 /* ImageIO.framework */; };
+		FCF84567E217E5890D791E3AA7A65277 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ABFEC50B871CF3C2267039FF73B7AB /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FECD7BDCC887C83BB0D1786BB272AF4F /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D96BCA04666B5B1A5A94FA758ECBD54 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16DAB111A1BD1C8D509E39CE1B466D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4ED3136065D01037865D960C84E133;
+			remoteInfo = EPCalendarPicker;
+		};
+		F2FD0CC7770DBA6BE69D5B6BE7A2503B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A955C69A7818D0B47BD7746E9C9E9CD3;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032645C765B3C527466218634FC1EBEE /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		04DA3331299EF80930CC0E1EB9AC46B8 /* EPCalendarCell1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPCalendarCell1.swift; path = EPCalendar/EPCalendarPicker/EPCalendarCell1.swift; sourceTree = "<group>"; };
+		10274A4D189E1494012B06BA0EE29AD8 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		175C34193EA9292C0EEB406383647F20 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		1E6C2FCFC7AB39E83953330EAF2F778A /* EPCalendarPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EPCalendarPicker.modulemap; sourceTree = "<group>"; };
+		20A70E38F929A6142BB472CEE1546877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		29B4CC6D646AC8F78D8448D2A28A2A12 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		2C0967EB1C79FED2970014C32DCD10E2 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		2C5A76E389D1C25C27648A884F5515C7 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		307DD2B96E213EC12152DC47D6E2C0A0 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		34C3FA23FAC8934B49F451039033F910 /* Pods-CalendarPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalendarPicker-umbrella.h"; sourceTree = "<group>"; };
+		35E78AFB27C0FBE31E2093F0CFC32A13 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		365B4A4252542399C8E7EBB7006A4503 /* Pods-CalendarPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalendarPicker-frameworks.sh"; sourceTree = "<group>"; };
+		3704D05F566D30A8EBE3AA13D3CDCEE9 /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = EPCalendar/EPCalendarPicker/EPExtensions.swift; sourceTree = "<group>"; };
+		377D4B089D002E1BD041B9F8E3589846 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		37967112D32FB938D0457FC33A62B327 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF9474FC6DA1A39C90B3E1CA128FA28 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		403200FFB034DF0F5FDE3E949441052B /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		4171CCC4EC5C86FDE91A2EB110AEE2EA /* Pods_CalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E2E017AA44224C2D00D8C1BA7C73C7 /* Pods-CalendarPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CalendarPicker.modulemap"; sourceTree = "<group>"; };
+		50DBB18BD22E6686F2616F14C140450E /* EPCalendarPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPCalendarPicker-dummy.m"; sourceTree = "<group>"; };
+		517622821CE89C8989BD5674DDC65C62 /* EPCalendarPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPCalendarPicker.xcconfig; sourceTree = "<group>"; };
+		619130264CED5EA948D3DD9BB286E181 /* EPCalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPCalendarPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D96BCA04666B5B1A5A94FA758ECBD54 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		7E8BECCFB23CB5664394EAFE22F7CDB5 /* EPCalendarPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPCalendarPicker.swift; path = EPCalendar/EPCalendarPicker/EPCalendarPicker.swift; sourceTree = "<group>"; };
+		86B9583961C1580A59E9413AD81F4438 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		881DD79EC3E88A020DCC7241615469C4 /* EPCalendarHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPCalendarHeaderView.xib; path = EPCalendar/EPCalendarPicker/EPCalendarHeaderView.xib; sourceTree = "<group>"; };
+		95D3CA22175D3487E48AF3D732163426 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		98355677C7B8795FA70825103DA0EDEC /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		9D8407A0F1C41140AC51B80C59CE1C0B /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		9DA1B2F001A3F8B6DE3E8C76C2F3A337 /* EPCalendarCell1.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPCalendarCell1.xib; path = EPCalendar/EPCalendarPicker/EPCalendarCell1.xib; sourceTree = "<group>"; };
+		9DAEF1E512DA75C6D5E7372D3BA183B1 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		9F3C87AB93CC5A5BC765314BF837BF1C /* EPCalendarHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPCalendarHeaderView.swift; path = EPCalendar/EPCalendarPicker/EPCalendarHeaderView.swift; sourceTree = "<group>"; };
+		A0ABFEC50B871CF3C2267039FF73B7AB /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		A1A260CC6B2071AB656636AF5AC75440 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A2AD9C62369DBC2D93322ADC6BC70E8A /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		AA0C7BE6EDBD5629DC984DB110639C90 /* Pods-CalendarPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAA12F48DE94A0112981A6B34169F57E /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		ADE47EC2E734D84338E2991AB6AF83C6 /* Pods-CalendarPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalendarPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B31A1B43FF6D6D4864ECADE61B83B884 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		B9AC4555BBB4248899EDF297D18F51D3 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		BA15D6A4992C115FA7D6F10F73B4DB79 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC95088956DDA6F46CE49BAFA0861A52 /* Pods-CalendarPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalendarPicker-dummy.m"; sourceTree = "<group>"; };
+		BED94123217EE144E3E0D5E526435F22 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		C28DC6F11BC232647115F925B6424560 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		C383EB1E2D178903B18BC2A7D8E269C8 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		C4D8EF75B8722876F0A98B246C37C70F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		C73D56209FE5696C84F05A3E245A6209 /* EPCalendarPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPCalendarPicker-umbrella.h"; sourceTree = "<group>"; };
+		C7682C85B1E9ADE0A557CE88576C36E5 /* Pods-CalendarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		CACB30204D59662FD325BCFBF2406409 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		CC4AF30E65DDAFB760372F96C5E7F1D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD470EAA096DEDF9CBDB91362D115BA6 /* EPCalendarPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPCalendarPicker-prefix.pch"; sourceTree = "<group>"; };
+		D2698116A7594AD59CD6327BB38EE177 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		DE26CDFB5D73BF0AF9482E5ACB8653DB /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		DE4B427E409B16A64CBED243F3952C7C /* EPCalendarConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPCalendarConstants.swift; path = EPCalendar/EPCalendarPicker/EPCalendarConstants.swift; sourceTree = "<group>"; };
+		E0C1C01B2C9E8B6F0F36DEFBE45D298B /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		E0C4513622B929BB7E8408A189BB8252 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		E179D9CA1DDE6BCD2D5BD5E1D1AEE2BE /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C3CE7AC054860272E5C89E5C354F81 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		F0E8ECCB06B0392ED490845B3C61FE24 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		F1F368386470CC1D0DE1D138896C847D /* Pods-CalendarPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalendarPicker-resources.sh"; sourceTree = "<group>"; };
+		F45EAA640B476E18E79C38796EE064B4 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		F8FDAE973F6357E0C10762F19C7A6C38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE51B2E9015470F741446947AE7A251 /* Pods-CalendarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4421E080365202C95E1BA200F6EA0452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0F3E8B9EF63A9E668F8D3AA83CDA24 /* Foundation.framework in Frameworks */,
+				FB7F6B522EC6E94A35A31C28D8DE1F00 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5384D668EC2A3AE83D46FDBEA26A78BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C523FA7BC34889E4D8A0E28BC3F2D854 /* Foundation.framework in Frameworks */,
+				D31E83DFCD8D5E28CEE3DC2068A2906A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597071B1AC1EB7F299D5B17E05CDB7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFD05CE749353C0C0C85E33CBE515F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0636D3E7AB25F8392CDA66356AEE3208 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C019B513209ED4A1503ECF864E5688F /* EPCalendarPicker */,
+				7FD93E9C0FD1B4FB522DBA15ED7BE84F /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AA54D89FE93FD8509EBBE8C1A6981F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C019B513209ED4A1503ECF864E5688F /* EPCalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				04DA3331299EF80930CC0E1EB9AC46B8 /* EPCalendarCell1.swift */,
+				DE4B427E409B16A64CBED243F3952C7C /* EPCalendarConstants.swift */,
+				9F3C87AB93CC5A5BC765314BF837BF1C /* EPCalendarHeaderView.swift */,
+				7E8BECCFB23CB5664394EAFE22F7CDB5 /* EPCalendarPicker.swift */,
+				3704D05F566D30A8EBE3AA13D3CDCEE9 /* EPExtensions.swift */,
+				34B32B5D5D81D931D10029E25CE31F99 /* Resources */,
+				9FEC636A502AD4108AF57E7CC47BDC2E /* Support Files */,
+			);
+			path = EPCalendarPicker;
+			sourceTree = "<group>";
+		};
+		34B32B5D5D81D931D10029E25CE31F99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1B2F001A3F8B6DE3E8C76C2F3A337 /* EPCalendarCell1.xib */,
+				881DD79EC3E88A020DCC7241615469C4 /* EPCalendarHeaderView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5506E18CDFF18999AD27FB40267036D6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2C0967EB1C79FED2970014C32DCD10E2 /* NSData+ImageContentType.h */,
+				3CF9474FC6DA1A39C90B3E1CA128FA28 /* NSData+ImageContentType.m */,
+				C383EB1E2D178903B18BC2A7D8E269C8 /* SDImageCache.h */,
+				95D3CA22175D3487E48AF3D732163426 /* SDImageCache.m */,
+				032645C765B3C527466218634FC1EBEE /* SDWebImageCompat.h */,
+				BA15D6A4992C115FA7D6F10F73B4DB79 /* SDWebImageCompat.m */,
+				D2698116A7594AD59CD6327BB38EE177 /* SDWebImageDecoder.h */,
+				377D4B089D002E1BD041B9F8E3589846 /* SDWebImageDecoder.m */,
+				98355677C7B8795FA70825103DA0EDEC /* SDWebImageDownloader.h */,
+				DE26CDFB5D73BF0AF9482E5ACB8653DB /* SDWebImageDownloader.m */,
+				307DD2B96E213EC12152DC47D6E2C0A0 /* SDWebImageDownloaderOperation.h */,
+				29B4CC6D646AC8F78D8448D2A28A2A12 /* SDWebImageDownloaderOperation.m */,
+				6D96BCA04666B5B1A5A94FA758ECBD54 /* SDWebImageManager.h */,
+				35E78AFB27C0FBE31E2093F0CFC32A13 /* SDWebImageManager.m */,
+				E5C3CE7AC054860272E5C89E5C354F81 /* SDWebImageOperation.h */,
+				B31A1B43FF6D6D4864ECADE61B83B884 /* SDWebImagePrefetcher.h */,
+				86B9583961C1580A59E9413AD81F4438 /* SDWebImagePrefetcher.m */,
+				A0ABFEC50B871CF3C2267039FF73B7AB /* UIButton+WebCache.h */,
+				AAA12F48DE94A0112981A6B34169F57E /* UIButton+WebCache.m */,
+				A2AD9C62369DBC2D93322ADC6BC70E8A /* UIImage+GIF.h */,
+				F0E8ECCB06B0392ED490845B3C61FE24 /* UIImage+GIF.m */,
+				2C5A76E389D1C25C27648A884F5515C7 /* UIImage+MultiFormat.h */,
+				F45EAA640B476E18E79C38796EE064B4 /* UIImage+MultiFormat.m */,
+				175C34193EA9292C0EEB406383647F20 /* UIImageView+HighlightedWebCache.h */,
+				E0C1C01B2C9E8B6F0F36DEFBE45D298B /* UIImageView+HighlightedWebCache.m */,
+				9D8407A0F1C41140AC51B80C59CE1C0B /* UIImageView+WebCache.h */,
+				9DAEF1E512DA75C6D5E7372D3BA183B1 /* UIImageView+WebCache.m */,
+				C4D8EF75B8722876F0A98B246C37C70F /* UIView+WebCacheOperation.h */,
+				CACB30204D59662FD325BCFBF2406409 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6AA54D89FE93FD8509EBBE8C1A6981F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1A260CC6B2071AB656636AF5AC75440 /* Foundation.framework */,
+				BED94123217EE144E3E0D5E526435F22 /* ImageIO.framework */,
+				20A70E38F929A6142BB472CEE1546877 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7107C9B0CA0574EF058D214C861532DD /* Pods-CalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDAE973F6357E0C10762F19C7A6C38 /* Info.plist */,
+				43E2E017AA44224C2D00D8C1BA7C73C7 /* Pods-CalendarPicker.modulemap */,
+				ADE47EC2E734D84338E2991AB6AF83C6 /* Pods-CalendarPicker-acknowledgements.markdown */,
+				AA0C7BE6EDBD5629DC984DB110639C90 /* Pods-CalendarPicker-acknowledgements.plist */,
+				BC95088956DDA6F46CE49BAFA0861A52 /* Pods-CalendarPicker-dummy.m */,
+				365B4A4252542399C8E7EBB7006A4503 /* Pods-CalendarPicker-frameworks.sh */,
+				F1F368386470CC1D0DE1D138896C847D /* Pods-CalendarPicker-resources.sh */,
+				34C3FA23FAC8934B49F451039033F910 /* Pods-CalendarPicker-umbrella.h */,
+				C7682C85B1E9ADE0A557CE88576C36E5 /* Pods-CalendarPicker.debug.xcconfig */,
+				FFE51B2E9015470F741446947AE7A251 /* Pods-CalendarPicker.release.xcconfig */,
+			);
+			name = "Pods-CalendarPicker";
+			path = "Target Support Files/Pods-CalendarPicker";
+			sourceTree = "<group>";
+		};
+		7343B1EB4747F8E4372D8FA789DEFEA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				619130264CED5EA948D3DD9BB286E181 /* EPCalendarPicker.framework */,
+				4171CCC4EC5C86FDE91A2EB110AEE2EA /* Pods_CalendarPicker.framework */,
+				E179D9CA1DDE6BCD2D5BD5E1D1AEE2BE /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7780B10AD98F9D051B979F84BE49C477 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7107C9B0CA0574EF058D214C861532DD /* Pods-CalendarPicker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				0636D3E7AB25F8392CDA66356AEE3208 /* Pods */,
+				7343B1EB4747F8E4372D8FA789DEFEA8 /* Products */,
+				7780B10AD98F9D051B979F84BE49C477 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD93E9C0FD1B4FB522DBA15ED7BE84F /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				5506E18CDFF18999AD27FB40267036D6 /* Core */,
+				F810FC7D3AEC840FFBE3F6236CB1F8DE /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		9FEC636A502AD4108AF57E7CC47BDC2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6C2FCFC7AB39E83953330EAF2F778A /* EPCalendarPicker.modulemap */,
+				517622821CE89C8989BD5674DDC65C62 /* EPCalendarPicker.xcconfig */,
+				50DBB18BD22E6686F2616F14C140450E /* EPCalendarPicker-dummy.m */,
+				CD470EAA096DEDF9CBDB91362D115BA6 /* EPCalendarPicker-prefix.pch */,
+				C73D56209FE5696C84F05A3E245A6209 /* EPCalendarPicker-umbrella.h */,
+				37967112D32FB938D0457FC33A62B327 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EPCalendarPicker";
+			sourceTree = "<group>";
+		};
+		F810FC7D3AEC840FFBE3F6236CB1F8DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4AF30E65DDAFB760372F96C5E7F1D3 /* Info.plist */,
+				10274A4D189E1494012B06BA0EE29AD8 /* SDWebImage.modulemap */,
+				E0C4513622B929BB7E8408A189BB8252 /* SDWebImage.xcconfig */,
+				B9AC4555BBB4248899EDF297D18F51D3 /* SDWebImage-dummy.m */,
+				C28DC6F11BC232647115F925B6424560 /* SDWebImage-prefix.pch */,
+				403200FFB034DF0F5FDE3E949441052B /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		125465DC4B199D891178A48463227CD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC267F0D033BC68C6DC0391448ABB94E /* EPCalendarPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1423B6F4417FC02334118D10B70277B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36CE56FDF410BFEC9C0EEB1F1D178DD /* NSData+ImageContentType.h in Headers */,
+				A55D72DB9BE15CE1D36DC5138998C28A /* SDImageCache.h in Headers */,
+				2E9CCFA0C071CB08C35958810E4AA94A /* SDWebImage-umbrella.h in Headers */,
+				974D07AC03DCE337EAB010F765CFABA7 /* SDWebImageCompat.h in Headers */,
+				D44F5BD1905D839E63ED1A876991E452 /* SDWebImageDecoder.h in Headers */,
+				4A94757563A0133D6FE73C0942E6391D /* SDWebImageDownloader.h in Headers */,
+				0A3FEF5EB807CE078AB6B0000F6A9201 /* SDWebImageDownloaderOperation.h in Headers */,
+				FECD7BDCC887C83BB0D1786BB272AF4F /* SDWebImageManager.h in Headers */,
+				E92BFC4842D41FE57C69E02FEB5FA55C /* SDWebImageOperation.h in Headers */,
+				5E20F41F9CCD3C0684E13990F1FB8C8D /* SDWebImagePrefetcher.h in Headers */,
+				FCF84567E217E5890D791E3AA7A65277 /* UIButton+WebCache.h in Headers */,
+				28D37FA0039987BB3906B56EE26A86F4 /* UIImage+GIF.h in Headers */,
+				A8C678F742A0807F28E959BD3F35E625 /* UIImage+MultiFormat.h in Headers */,
+				F3868E45B9304E84A766AE848276CF2B /* UIImageView+HighlightedWebCache.h in Headers */,
+				527673CAEAF2D98BCB810C70E3D0CB22 /* UIImageView+WebCache.h in Headers */,
+				81F1D9E6A01F7889151AA18463FFA5E0 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC59FC448E1C3C3E81C9FBFEC3D1B04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5418D0CA81BB07B43F39B5052579194D /* Pods-CalendarPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F4ED3136065D01037865D960C84E133 /* EPCalendarPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF915CD625EFB50092D616DD93C1434E /* Build configuration list for PBXNativeTarget "EPCalendarPicker" */;
+			buildPhases = (
+				D54C4D9CB12848D4D38B61713BA35F23 /* Sources */,
+				5384D668EC2A3AE83D46FDBEA26A78BE /* Frameworks */,
+				D63811F941AB6504B885CDD4C396BAB6 /* Resources */,
+				125465DC4B199D891178A48463227CD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPCalendarPicker;
+			productName = EPCalendarPicker;
+			productReference = 619130264CED5EA948D3DD9BB286E181 /* EPCalendarPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A955C69A7818D0B47BD7746E9C9E9CD3 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F375356EC11A51407968EA99A364AF8 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				E341EFB8FE5299E01C8859EE350AD514 /* Sources */,
+				4421E080365202C95E1BA200F6EA0452 /* Frameworks */,
+				1423B6F4417FC02334118D10B70277B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = E179D9CA1DDE6BCD2D5BD5E1D1AEE2BE /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF9FBBF4DAF8F51B41C65B35D49CC6EA /* Pods-CalendarPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54F13277C5DCFD1ACB8960A6D287D9F /* Build configuration list for PBXNativeTarget "Pods-CalendarPicker" */;
+			buildPhases = (
+				5B95ABA15F586D0F5294EBB19EE92ABE /* Sources */,
+				597071B1AC1EB7F299D5B17E05CDB7A6 /* Frameworks */,
+				9FC59FC448E1C3C3E81C9FBFEC3D1B04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6D42EE5ACCB7D1207EDAA2C69E58DC /* PBXTargetDependency */,
+				21E61682B011CE86793921F0AA225267 /* PBXTargetDependency */,
+			);
+			name = "Pods-CalendarPicker";
+			productName = "Pods-CalendarPicker";
+			productReference = 4171CCC4EC5C86FDE91A2EB110AEE2EA /* Pods_CalendarPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7343B1EB4747F8E4372D8FA789DEFEA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4ED3136065D01037865D960C84E133 /* EPCalendarPicker */,
+				AF9FBBF4DAF8F51B41C65B35D49CC6EA /* Pods-CalendarPicker */,
+				A955C69A7818D0B47BD7746E9C9E9CD3 /* SDWebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63811F941AB6504B885CDD4C396BAB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCC8052793A03ED012B0C3F1D6A8546 /* EPCalendarCell1.xib in Resources */,
+				0B65591FD4EC9C080FBDC347EF476D49 /* EPCalendarHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B95ABA15F586D0F5294EBB19EE92ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C44BDBC87179BE50EE6ED9CF028AAC /* Pods-CalendarPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54C4D9CB12848D4D38B61713BA35F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CD87A4506139F0458E7D9F3B2AC919 /* EPCalendarCell1.swift in Sources */,
+				6E5876C4AB9AA8CC9F41D45547CE1564 /* EPCalendarConstants.swift in Sources */,
+				F2B833CA2C58782077AC3FC1ACCC5EE0 /* EPCalendarHeaderView.swift in Sources */,
+				486C627CFD70A24ABD6591AA944A6FC8 /* EPCalendarPicker-dummy.m in Sources */,
+				74F8D0F5FE5444B09C53313E7FA91A5D /* EPCalendarPicker.swift in Sources */,
+				BDE521933B317671B003EE364D8F16E7 /* EPExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E341EFB8FE5299E01C8859EE350AD514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C5905E317D3BB30B1F22D5D3FBEA54 /* NSData+ImageContentType.m in Sources */,
+				C730DAD378A9ED85BDFAA7BFC7BEA089 /* SDImageCache.m in Sources */,
+				83F083E46E5912900BEC5CEDF82D0CB8 /* SDWebImage-dummy.m in Sources */,
+				DB840C22DB39CBF68650B5576B1A0FB3 /* SDWebImageCompat.m in Sources */,
+				4C0FD3F0960295AA8FB1F0E478F87952 /* SDWebImageDecoder.m in Sources */,
+				CA6FCD13EB5B429020079F752C8227D4 /* SDWebImageDownloader.m in Sources */,
+				B6AA46A551B3997FFFE078075505D066 /* SDWebImageDownloaderOperation.m in Sources */,
+				F3E56E1026DFCB644E2FE487E3E05843 /* SDWebImageManager.m in Sources */,
+				C32AEE97730BE168153EB1FA8C2B7447 /* SDWebImagePrefetcher.m in Sources */,
+				C3E427958378E44B63DB4E73182D089E /* UIButton+WebCache.m in Sources */,
+				0A7ABC62B3982C1D6EB114B2FC502CC2 /* UIImage+GIF.m in Sources */,
+				AC28753696C491C9E37740120E5B65F5 /* UIImage+MultiFormat.m in Sources */,
+				F0604216D5A8100351C23D40B3523423 /* UIImageView+HighlightedWebCache.m in Sources */,
+				95B70A03598ED1C56A043B9A0B90C33F /* UIImageView+WebCache.m in Sources */,
+				E12ADF0E0EA5E3459C6275296037572D /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21E61682B011CE86793921F0AA225267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = A955C69A7818D0B47BD7746E9C9E9CD3 /* SDWebImage */;
+			targetProxy = F2FD0CC7770DBA6BE69D5B6BE7A2503B /* PBXContainerItemProxy */;
+		};
+		6B6D42EE5ACCB7D1207EDAA2C69E58DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EPCalendarPicker;
+			target = 3F4ED3136065D01037865D960C84E133 /* EPCalendarPicker */;
+			targetProxy = 16DAB111A1BD1C8D509E39CE1B466D7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		601533ECC39968DA7FA27E859A557246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C4513622B929BB7E8408A189BB8252 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		738BD906536AB394F7D7E71E35E8BBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7682C85B1E9ADE0A557CE88576C36E5 /* Pods-CalendarPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalendarPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalendarPicker/Pods-CalendarPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CalendarPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D4CC4173C56F45CF3421A30EE8680BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE51B2E9015470F741446947AE7A251 /* Pods-CalendarPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalendarPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalendarPicker/Pods-CalendarPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CalendarPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		875653AF2EB171D51E69BC53877ECD44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517622821CE89C8989BD5674DDC65C62 /* EPCalendarPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EPCalendarPicker/EPCalendarPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPCalendarPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPCalendarPicker/EPCalendarPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EPCalendarPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AB82C2775F832D320B95B1730C78DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C4513622B929BB7E8408A189BB8252 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CB41F54B53A984A098F189F685FFCA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517622821CE89C8989BD5674DDC65C62 /* EPCalendarPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EPCalendarPicker/EPCalendarPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPCalendarPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EPCalendarPicker/EPCalendarPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EPCalendarPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F375356EC11A51407968EA99A364AF8 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB82C2775F832D320B95B1730C78DEB /* Debug */,
+				601533ECC39968DA7FA27E859A557246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54F13277C5DCFD1ACB8960A6D287D9F /* Build configuration list for PBXNativeTarget "Pods-CalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738BD906536AB394F7D7E71E35E8BBF9 /* Debug */,
+				7D4CC4173C56F45CF3421A30EE8680BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF915CD625EFB50092D616DD93C1434E /* Build configuration list for PBXNativeTarget "EPCalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB41F54B53A984A098F189F685FFCA04 /* Debug */,
+				875653AF2EB171D51E69BC53877ECD44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
