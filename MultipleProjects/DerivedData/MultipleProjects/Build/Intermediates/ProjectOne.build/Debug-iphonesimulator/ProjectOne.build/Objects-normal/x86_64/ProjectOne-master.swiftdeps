@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "159bb07d3ea1340710ef1afc274677da"
+build_time: [510117485, 803277000]
+inputs:
+  "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/ProjectOne/ProjectOne/AppDelegate.swift": [510111002, 0]
+  "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/ProjectOne/ProjectOne/ViewController.swift": [510117485, 0]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:StaticLibrary/StaticLibrary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyObjectiveCFramework/MyObjectiveCFramework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectCommon/ProjectCommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectOne/ProjectOne.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectTwo/ProjectTwo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectThree/ProjectThree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectFour/ProjectFour.xcodeproj">
+   </FileRef>
+</Workspace>

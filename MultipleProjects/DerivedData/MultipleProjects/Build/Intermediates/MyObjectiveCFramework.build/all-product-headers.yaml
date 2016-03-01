@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/DerivedData/MultipleProjects/Build/Products/Debug-iphonesimulator/MyObjectiveCFramework.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MyClass.h",
+          'external-contents': "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/MyObjectiveCFramework/MyObjectiveCFramework/MyClass.h"
+        },
+        {
+          'type': 'file',
+          'name': "MyObjectiveCFramework-Swift.h",
+          'external-contents': "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/DerivedData/MultipleProjects/Build/Products/Debug-iphonesimulator/MyObjectiveCFramework.framework/Headers/MyObjectiveCFramework-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MyObjectiveCFramework.h",
+          'external-contents': "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/MyObjectiveCFramework/MyObjectiveCFramework/MyObjectiveCFramework.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/DerivedData/MultipleProjects/Build/Products/Debug-iphonesimulator/MyObjectiveCFramework.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/DerivedData/MultipleProjects/Build/Intermediates/MyObjectiveCFramework.build/Debug-iphonesimulator/MyObjectiveCFramework.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ const unsigned char ProjectCommonVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:ProjectCommon  PROJECT:ProjectCommon-1" "\n"; const double ProjectCommonVersionNumber __attribute__ ((used)) = (double)1.;

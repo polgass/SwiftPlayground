@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Target2</key>
+	<dict>
+		<key>AnalyticsAPIKey</key>
+		<string>HIJKLMN</string>
+	</dict>
+	<key>Target1</key>
+	<dict>
+		<key>AnalyticsAPIKey</key>
+		<string>ABCDEFG</string>
+	</dict>
+</dict>
+</plist>

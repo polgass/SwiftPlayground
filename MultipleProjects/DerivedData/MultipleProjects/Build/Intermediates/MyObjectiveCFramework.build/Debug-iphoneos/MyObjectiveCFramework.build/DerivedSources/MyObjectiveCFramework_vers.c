@@ -1,0 +1,1 @@
+ const unsigned char MyObjectiveCFrameworkVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:MyObjectiveCFramework  PROJECT:MyObjectiveCFramework-1" "\n"; const double MyObjectiveCFrameworkVersionNumber __attribute__ ((used)) = (double)1.;

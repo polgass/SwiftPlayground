@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "a030f6d5051109387557e22bcde3cbcf"
+build_time: [510117485, 554731000]
+inputs:
+  "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/ProjectCommon/ProjectCommon/CommonViewController.swift": [510117472, 0]
+  "/Users/offshoreadmin/Developer/SwiftPlayground/MultipleProjects/ProjectCommon/ProjectCommon/Person.swift": [510113736, 0]
