@@ -59,7 +59,13 @@ final class PhotoInfo: NSObject, ResponseObjectSerializable, ResponseCollectionS
   static func collection(response response: NSHTTPURLResponse, representation: AnyObject) -> [PhotoInfo] {
     var photos = [PhotoInfo]()
     
-    photos = (representation.valueForKeyPath("photos") as! [NSDictionary]).map { PhotoInfo(id: $0["id"] as! Int, url: $0["image_url"] as! String) }
+    photos = (representation.valueForKeyPath("photos") as! [NSDictionary]).map({ dict in
+      let photo = PhotoInfo(id: dict.valueForKey("id") as! Int, url: dict.valueForKey("url") as! String)
+      photo.name = dict.valueForKey("name") as? String
+      photo.pulse = dict.valueForKey("rating") as? Float
+      
+      return photo
+    })
     
     return photos
   }

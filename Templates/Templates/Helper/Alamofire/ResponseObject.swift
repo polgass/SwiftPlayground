@@ -18,6 +18,9 @@ extension Alamofire.Request {
     
     let responseSerializer = ResponseSerializer<T, NSError> { request, response, data, error in
       
+      print("*************")
+      print("url: \(request!.URLString)")
+      
       guard error == nil else { return .Failure(error!) }
       
       let JSONResponseSerializer = Request.JSONResponseSerializer(options: .AllowFragments)
