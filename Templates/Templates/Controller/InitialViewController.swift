@@ -39,6 +39,9 @@ class InitialViewController: UIViewController {
     let myString = "  \t\t  Let's trim all the whitespace  \n \t  \n  "
     print("TRIMMED: \(myString.customURLEncodedString())")
     print("ENCODED: \(myString.trimmedString().customURLEncodedString())")
+    
+    let v = Test(frame: view.bounds)
+    view.addSubview(v)
   }
   
   func urlEncodedString(string: String) -> String {

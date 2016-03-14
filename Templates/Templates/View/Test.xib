@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Test" customModule="Templates" customModuleProvider="target">
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                    <color key="value" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="string" keyPath="text" value="aasddsdsd"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="backgroundView" destination="RTQ-wa-2Ks" id="DPV-7J-evH"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Bee-2o-pif"/>
+                <outlet property="titleLabel" destination="z0c-d8-jHl" id="C2g-bn-Gzr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTQ-wa-2Ks">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0c-d8-jHl">
+                            <rect key="frame" x="279" y="290" width="42" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="z0c-d8-jHl" firstAttribute="centerX" secondItem="RTQ-wa-2Ks" secondAttribute="centerX" id="JeC-9h-dgY"/>
+                        <constraint firstItem="z0c-d8-jHl" firstAttribute="centerY" secondItem="RTQ-wa-2Ks" secondAttribute="centerY" id="NNG-0T-Wrd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RTQ-wa-2Ks" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CrR-hU-kys"/>
+                <constraint firstItem="RTQ-wa-2Ks" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="LRT-6e-GKS"/>
+                <constraint firstItem="RTQ-wa-2Ks" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nLn-aS-voL"/>
+                <constraint firstItem="RTQ-wa-2Ks" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ty1-ic-rYg"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
