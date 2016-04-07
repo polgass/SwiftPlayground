@@ -77,11 +77,13 @@ func containsMatch(pattern: String, inString string: String) -> Bool {
 }
 
 func replaceMatches(pattern: String, inString string: String, withString replacementString: String) -> String? {
-    let regex = try? NSRegularExpression(pattern: pattern, options: [])
+    let regex = try? NSRegularExpression(pattern: pattern, options: [.CaseInsensitive])
     let range = NSMakeRange(0, string.characters.count)
     
     return regex?.stringByReplacingMatchesInString(string, options: [], range: range, withTemplate: replacementString)
 }
+
+replaceMatches("(jobs & careers in|jobs & careers near)", inString: "ios Jobs & careers near wa", withString: " - ")
 
 //: ## Basic Examples
 //:
@@ -90,6 +92,7 @@ func replaceMatches(pattern: String, inString string: String, withString replace
 let quickFox = "The quick brown fox jumps over the lazy dog. Jump"
 
 listMatches("jump", inString: quickFox)
+highlightMatches("P", inString: quickFox)
 
 //: This next example uses some special characters that are available in regular expressions. The parenthesis create a group, and the question mark says "match the previous element (the group in this case) 0 or 1 times". It matches either 'jump' or 'jumps':
 
