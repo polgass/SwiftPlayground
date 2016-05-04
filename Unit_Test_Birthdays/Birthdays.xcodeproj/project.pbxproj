@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C885CB61CD9B6720070BF96 /* BirthdaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C885CB51CD9B6720070BF96 /* BirthdaysTests.swift */; };
 		9C885CBD1CD9B6830070BF96 /* PeopleListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C885C841CD98BCC0070BF96 /* PeopleListViewControllerTests.swift */; };
 		9C885CBF1CD9BA720070BF96 /* PeopleListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C885CBE1CD9BA720070BF96 /* PeopleListDataProviderTests.swift */; };
 		F20B6E921AC5C3D70094A1FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B6E911AC5C3D70094A1FE /* AppDelegate.swift */; };
@@ -38,8 +37,6 @@
 /* Begin PBXFileReference section */
 		9C885C841CD98BCC0070BF96 /* PeopleListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListViewControllerTests.swift; sourceTree = "<group>"; };
 		9C885CB31CD9B6720070BF96 /* BirthdaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C885CB51CD9B6720070BF96 /* BirthdaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTests.swift; sourceTree = "<group>"; };
-		9C885CB71CD9B6720070BF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C885CBE1CD9BA720070BF96 /* PeopleListDataProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleListDataProviderTests.swift; sourceTree = "<group>"; };
 		F20B6E8C1AC5C3D70094A1FE /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20B6E901AC5C3D70094A1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,21 +74,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C885CB41CD9B6720070BF96 /* BirthdaysTests */ = {
-			isa = PBXGroup;
-			children = (
-				9C885CB51CD9B6720070BF96 /* BirthdaysTests.swift */,
-				9C885CB71CD9B6720070BF96 /* Info.plist */,
-			);
-			path = BirthdaysTests;
-			sourceTree = "<group>";
-		};
 		F20B6E831AC5C3D70094A1FE = {
 			isa = PBXGroup;
 			children = (
 				F20B6E8E1AC5C3D70094A1FE /* Birthdays */,
 				F20B6EA91AC5C3D70094A1FE /* BirthdaysTests */,
-				9C885CB41CD9B6720070BF96 /* BirthdaysTests */,
 				F20B6E8D1AC5C3D70094A1FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -278,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C885CB61CD9B6720070BF96 /* BirthdaysTests.swift in Sources */,
 				9C885CBD1CD9B6830070BF96 /* PeopleListViewControllerTests.swift in Sources */,
 				9C885CBF1CD9BA720070BF96 /* PeopleListDataProviderTests.swift in Sources */,
 			);
@@ -475,6 +461,7 @@
 				9C885CBC1CD9B6720070BF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F20B6E871AC5C3D70094A1FE /* Build configuration list for PBXProject "Birthdays" */ = {
 			isa = XCConfigurationList;
