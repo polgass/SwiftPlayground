@@ -1,0 +1,63 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.17)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.17)
+    - FBSDKLoginKit (~> 4.17)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.17)
+    - FBSDKShareKit (~> 4.17)
+  - FBSDKCoreKit (4.19.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.19.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.19.0):
+    - FBSDKCoreKit
+
+DEPENDENCIES:
+  - FacebookCore (from `https://github.com/facebook/facebook-sdk-swift`)
+  - FacebookLogin (from `https://github.com/facebook/facebook-sdk-swift`)
+  - FacebookShare (from `https://github.com/facebook/facebook-sdk-swift`)
+
+EXTERNAL SOURCES:
+  FacebookCore:
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookShare:
+    :git: https://github.com/facebook/facebook-sdk-swift
+
+CHECKOUT OPTIONS:
+  FacebookCore:
+    :commit: 9af12818fa7e6a40f9ecb044e307f171b56f9ae9
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :commit: 9af12818fa7e6a40f9ecb044e307f171b56f9ae9
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookShare:
+    :commit: 9af12818fa7e6a40f9ecb044e307f171b56f9ae9
+    :git: https://github.com/facebook/facebook-sdk-swift
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 28db13acb1fdbb7e2b00f71c38b902df17ee013b
+  FacebookLogin: 67088c0e975e5c26243ed0b5a17ab2d8d970992a
+  FacebookShare: a2c51103efac7fb16cb1260edfb8dea4a48dfb9d
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
+  FBSDKShareKit: 5953758366278430dc322d5cdc906db361ed7f81
+
+PODFILE CHECKSUM: 6dcd3a3e470f099553dcc3dee93f3861df86a394
+
+COCOAPODS: 1.2.0
